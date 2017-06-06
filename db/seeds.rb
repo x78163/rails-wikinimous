@@ -5,7 +5,7 @@
 10.times do
   post = Article.new(
     title: Faker::Ancient.god,
-    content: Faker::Commerce.product_name
+    content: Faker::Lorem.paragraph(20)
     )
 
   post.save

@@ -48,6 +48,7 @@ group :development do
   gem 'faker'
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'kramdown'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
