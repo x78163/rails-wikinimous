@@ -2,5 +2,12 @@
 # The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
 
 
-  title = Faker::Lorem.sentence
-  content = Faker::Lorem.sentence
+10.times do
+  post = Article.new(
+    title: Faker::Ancient.god,
+    content: Faker::Commerce.product_name
+    )
+
+  post.save
+
+end
